@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../background.jpg");
+    font-size: 150%;
+}
+
+#background {
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    font-size: 150%;
+    position: absolute;
+    right: 0;
+}
+#horloge {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menu {
+    padding: 10px;
+    display: flex;
+    width: 35px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.6;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+}
+#clock {
+    font-style: bold;
+    color: black;
+}
+#calendar {
+    font-style: bold;
+    color: black;
+}
